@@ -3,33 +3,34 @@
 @theme inline {
   /* Fonts — wired up in app/layout.tsx via next/font/google */
   --font-heading: var(--font-heading);
+  --font-script: var(--font-script);
   --font-body: var(--font-body);
 
-  /* Palette — draft branding, swap these when final colours land */
-  --color-background: #f6efe4;
-  --color-surface: #efe4d2;
-  --color-foreground: #3a332b;
-  --color-muted: #6b5f4f;
-  --color-border: #e3d6c0;
-  --color-accent: #9c4f5b;
-  --color-accent-hover: #7f3e48;
-  --color-accent-soft: #eac7cb;
+  /* Palette — client brand colours, swap here if they change */
+  --color-sage: #8fb3a9;
+  --color-sage-deep: #5f8478;
+  --color-mint-tint: #e8f1ed;
+  --color-cream: #f7f5f0;
+  --color-charcoal: #2e3a36;
+  --color-muted: #6b7671;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-color: var(--color-background);
-  color: var(--color-foreground);
-}
+@layer base {
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-charcoal);
+  }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-heading);
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+  }
 }
