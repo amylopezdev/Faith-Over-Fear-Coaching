@@ -50,7 +50,7 @@ const Contact = () => {
               id="name"
               name="name"
               value={name}
-              placeholder=""
+              placeholder="Your full name"
               required
               onChange={(e) => {
                 setName(e.target.value);
@@ -74,7 +74,7 @@ const Contact = () => {
               id="email"
               name="email"
               value={email}
-              placeholder=""
+              placeholder="Your email address"
               required
               onChange={(e) => {
                 setEmail(e.target.value);
