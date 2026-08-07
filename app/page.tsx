@@ -1,19 +1,7 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Hero from "./components/Hero";
-import Services from "./components/Services";
-import Testimonials from "./components/Testimonials";
+import Hero from "./components/Hero/page";
 
 const Home = () => {
-  return (
-    <>
-      <Hero />
-      <About />
-      <Services />
-      <Testimonials />
-      <Contact />
-    </>
-  );
+  return <Hero />;
 };
 
 export default Home;

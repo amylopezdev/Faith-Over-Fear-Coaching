@@ -1,7 +1,10 @@
 const Hero = () => {
   return (
-    <section id="top" className="px-6 py-24 sm:py-32">
-      <div className="mx-auto max-w-3xl">
+    <section
+      id="top"
+      className="flex min-h-[70dvh] flex-1 flex-col justify-center px-6 py-24 sm:py-32"
+    >
+      <div className="mx-auto w-full max-w-3xl">
         <h1 className="text-center text-4xl font-medium text-charcoal sm:text-6xl md:text-7xl">
           Faith Over Fear Coaching
         </h1>
