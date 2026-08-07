@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { commonCountries, countries, usaStates } from "../data";
+import { commonCountries, countries, usaStates } from "../data/countries";
 
 const Contact = () => {
   const [name, setName] = useState("");
