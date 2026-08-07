@@ -1,3 +1,5 @@
+import CTAButton from "./CTAButton";
+
 const Hero = () => {
   return (
     <section
@@ -11,6 +13,9 @@ const Hero = () => {
         <p className="font-script mt-4 text-center text-2xl text-[color-mix(in_srgb,var(--color-sage-deep)_70%,var(--color-charcoal)_30%)] sm:mt-6 sm:text-3xl">
           Helping you advance your career with faith over fear
         </p>
+        <div className="mt-8 text-center sm:mt-10">
+          <CTAButton />
+        </div>
       </div>
     </section>
   );
