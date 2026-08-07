@@ -23,9 +23,9 @@ const Contact = () => {
       className="flex min-h-[70dvh] flex-1 flex-col justify-center border-t border-sage/20 bg-mint-tint px-6 py-10 sm:py-14"
     >
       <div className="mx-auto w-full max-w-3xl">
-        <h2 className="text-center text-3xl font-semibold text-charcoal sm:text-4xl">
+        <h1 className="text-center text-3xl font-semibold text-charcoal sm:text-4xl">
           Contact
-        </h2>
+        </h1>
         <p className="mt-3 text-center text-charcoal">
           This short form helps me understand your career goals & challenges. If
           there&apos;s a strong fit, I will invite you to a tailored career
@@ -64,7 +64,7 @@ const Contact = () => {
               htmlFor="email"
               className="text-sm font-medium text-charcoal"
             >
-              Email address{" "}
+              Email address
               <span aria-hidden="true" className="text-sage-deep">
                 *
               </span>
