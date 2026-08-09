@@ -1,4 +1,5 @@
 import CTAButton from "../components/CTAButton";
+import TestimonialItem from "../components/TestimonialItem";
 import { testimonials } from "../data/testimonials";
 
 const Testimonials = () => {
@@ -13,18 +14,12 @@ const Testimonials = () => {
         </h1>
         <ul className="mt-10 space-y-12 sm:mt-14 sm:space-y-16">
           {testimonials.map((testimonial) => (
-            <li
+            <TestimonialItem
               key={testimonial.name}
-              className="border-l-2 border-sage pl-6 sm:pl-8"
-            >
-              <blockquote className="text-left text-lg leading-relaxed text-charcoal sm:text-xl">
-                {testimonial.quote}
-              </blockquote>
-              <p className="mt-4 font-semibold text-sage-deep">
-                {testimonial.name}
-              </p>
-              <p className="text-sm text-muted">{testimonial.transition}</p>
-            </li>
+              quote={testimonial.quote}
+              name={testimonial.name}
+              transition={testimonial.transition}
+            />
           ))}
         </ul>
       </div>
