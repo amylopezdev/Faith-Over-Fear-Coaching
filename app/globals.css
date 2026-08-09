@@ -15,10 +15,6 @@
   --color-muted: #6b7671;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 @layer base {
   body {
     background-color: var(--color-cream);
