@@ -40,7 +40,7 @@ export default function RootLayout({
       lang="en"
       className={`${cormorantGaramond.variable} ${greatVibes.variable} ${karla.variable}`}
     >
-      <body className="min-h-screen flex flex-col font-body antialiased">
+      <body className="min-h-dvh flex flex-col font-body antialiased">
         <Header />
         <main className="flex flex-1 flex-col">{children}</main>
         <Footer />
