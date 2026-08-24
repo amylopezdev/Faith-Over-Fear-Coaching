@@ -8,7 +8,7 @@ const Services = () => {
     >
       <div className="mx-auto w-full max-w-3xl">
         <h1 className="text-center text-3xl font-semibold text-charcoal sm:text-4xl">
-          Services
+          Work With Me
         </h1>
         <div className="mt-8 text-center sm:mt-10">
           <p className="font-heading text-xl text-charcoal sm:text-2xl">

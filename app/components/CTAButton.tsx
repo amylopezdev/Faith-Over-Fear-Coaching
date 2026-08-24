@@ -5,7 +5,7 @@ type CTAButtonProps = {
   href?: string;
 };
 
-const CTAButton = ({ text = "Get in touch", href = "/contact" }: CTAButtonProps) => {
+const CTAButton = ({ text = "Get in touch", href = "/connect" }: CTAButtonProps) => {
   return (
     <Link
       href={href}

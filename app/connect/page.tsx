@@ -24,7 +24,7 @@ const Contact = () => {
     >
       <div className="mx-auto w-full max-w-3xl">
         <h1 className="text-center text-3xl font-semibold text-charcoal sm:text-4xl">
-          Contact
+          Let&apos;s Connect
         </h1>
         <p className="mt-3 text-center text-charcoal">
           This short form helps me understand your career goals & challenges. If

@@ -10,7 +10,7 @@ const Testimonials = () => {
     >
       <div className="mx-auto w-full max-w-3xl">
         <h1 className="text-center text-3xl font-semibold text-charcoal sm:text-4xl">
-          Testimonials
+          Success Stories
         </h1>
         <ul className="mt-10 space-y-12 sm:mt-14 sm:space-y-16">
           {testimonials.map((testimonial) => (
