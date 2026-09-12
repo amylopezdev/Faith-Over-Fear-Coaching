@@ -1,5 +1,17 @@
 export const testimonials = [
   {
+    name: "Ashanti",
+    transition: "Hospitality Manager → Freelance",
+    quote:
+      "I had an incredible experience working with Tiffany over two months as my career coach. Her extensive HR knowledge and insights into the interview process empowered me to navigate my second job interview with confidence. Tiffany not only provided valuable feedback on my first interview but also taught me how to advocate for my needs, emphasizing that we don’t get what we don’t ask for. She helped me draft professional emails and even conducted role-play interview prep. Thanks to her guidance, I received a job offer just one week after starting our work together. Tiffany also assisted me in leveraging that offer in salary negotiations with my current employer, encouraging me to stand up for myself every step of the way. Overall, Tiffany's coaching offered immense value, and I highly recommend her services to anyone seeking help with interview preparation, salary negotiation, or self-advocacy. She's an expert in helping you achieve your career goals!",
+  },
+  {
+    name: "Georgia",
+    transition: "Event Manager → Epic Breakthrough",
+    quote:
+      "After struggling to gain clarity in my career trajectory, I reached out to Tiffany who, in just 2 months, helped me go from being overwhelmed by the job searching process to relieved. This was due to the tremendous amount of support that Tiffany provides through her career coaching services. Her ability to find people’s stories and weave them into their career journeys is a skill that I’m constantly in awe of. From resume rewrites to searching for jobs, Tiffany knows what success looks like. Since this past summer, I have found myself in a complete career path switch and it’s all due to her unwavering faith, guidance, and support in my abilities. I absolutely found the time and money spent valuable! It may not have led to a job, but it led to a breakthrough which is even better. Tiffany helped me to finally see and accept that the path I’m on isn’t for me…and that’s okay. I don’t know if I would have reached that conclusion as quickly if I didn’t have Tiffany mirroring back our conversations! It was really pivotal for me and the impact was huge. It really launched me onto this new path of entrepreneurship and ultimately gave me back the confidence spark that I desperately needed. If you’re looking for an all-star advocate in your job search, Tiffany is your go-to! She's awesome ✨✨",
+  },
+  {
     name: "Rebecca",
     transition: "Events Executive → Caseworker",
     quote:
