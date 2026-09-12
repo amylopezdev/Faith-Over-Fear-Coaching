@@ -2,7 +2,7 @@ import CTAButton from "../components/CTAButton";
 import TestimonialItem from "../components/TestimonialItem";
 import { testimonials } from "../data/testimonials";
 
-const Testimonials = () => {
+const Success = () => {
   return (
     <section
       id="testimonials"
@@ -30,4 +30,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Success;
